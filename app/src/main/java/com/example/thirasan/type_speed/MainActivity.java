@@ -87,6 +87,14 @@ public class MainActivity extends AppCompatActivity implements TypeView {
             this.level = 1;
             presenter.selectLevel(1);
         }
+        else if(view.getId() == R.id.button2){
+            this.level = 2;
+            presenter.selectLevel(2);
+        }
+        else {
+            this.level = 3;
+            presenter.selectLevel(3);
+        }
 
     }
 

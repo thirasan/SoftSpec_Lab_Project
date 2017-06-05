@@ -10,6 +10,10 @@ public class LevelFactory {
         if(level == 1){
             levels = new Easy();
         }
+        else if(level == 2)
+            levels = new Normal();
+        else
+            levels = new Hard();
         return levels;
     }
 }

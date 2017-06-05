@@ -7,7 +7,8 @@ package com.example.thirasan.type_speed;
 public class Easy implements Level {
 
     String[] word = {"I took some money out of the bank.","The shop stays open until 9 p.m,",
-                    "Can I help you?","Could you open the door?","You're driving too fast!"};
+                    "Can I help you?","Could you open the door?","You're driving too fast!","Not at all, Joe.",
+                    "The train should be here soon.","His father worked as a journalist."};
 
     @Override
     public String getWord() {
