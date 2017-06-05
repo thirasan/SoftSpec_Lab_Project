@@ -10,6 +10,4 @@ public interface TypeView {
     void update(String word);
     void updateType(boolean equal);
     void end(double runtime);
-
-    void test(String substring);
 }
